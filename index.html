@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nebula HTML Encryptor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="nebula">
+    <div class="particle p1"></div>
+    <div class="particle p2"></div>
+    <div class="particle p3"></div>
+    <div class="particle p4"></div>
+    <div class="particle p5"></div>
+  </div>
+
+  <main>
+    <h1>🌌 Nebula HTML Encryptor</h1>
+    <textarea id="input" placeholder="Masukkan kode HTML kamu di sini..."></textarea>
+
+    <div class="btn-group">
+      <button id="btnEncrypt">🔒 Encrypt HTML</button>
+      <button id="btnCopy">📋 Copy Output</button>
+      <button id="btnClear">🧹 Clear</button>
+    </div>
+
+    <hr class="nebula-divider"/>
+
+    <textarea id="output" placeholder="Hasil terenkripsi akan muncul di sini..." readonly></textarea>
+    <br>
+    <a id="downloadLink" style="display:none" download="encrypted.html"></a>
+
+    <footer id="main-footer">
+      <p>© 2025 <span class="author">HanzzOffc</span></p>
+    </footer>
+  </main>
+
+  <!-- Script utama -->
+  <script src="script.js" defer></script>
+  <!-- Script medsos -->
+  <script src="medsos.js" defer></script>
+</body>
+</html>
